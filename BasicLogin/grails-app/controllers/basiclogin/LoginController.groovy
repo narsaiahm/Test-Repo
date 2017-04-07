@@ -41,6 +41,10 @@ class LoginController {
 		}
 	}
 
+	/**
+	 * redirect to login action
+	 * @ return string 
+	 */
 	def login(){
 		render view:'login'
 	}
