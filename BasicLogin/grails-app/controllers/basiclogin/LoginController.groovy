@@ -53,6 +53,10 @@ class LoginController {
 		render view:'registration'
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	def registration(){
 		def firstName = params['firstname'];
 		def lastName = params['lastname'];
