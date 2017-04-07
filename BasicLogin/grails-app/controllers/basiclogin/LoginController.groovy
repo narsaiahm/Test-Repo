@@ -9,8 +9,13 @@ class LoginController {
 	def index(){
 		redirect(action:'login', params:params)
 	}
-
+/**
+ * Authenticate user details
+ * @return string
+ */
 	def authenticate(){
+		
+		
 
 		def userName = "";
 		def userId = params['userId'];
