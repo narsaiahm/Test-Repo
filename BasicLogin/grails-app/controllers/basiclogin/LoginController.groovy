@@ -67,6 +67,10 @@ class LoginController {
 		render(status: 401, text: regMsg)
 	}
 	
+	/**
+	 * adsfadsfasdfasfasf
+	 * @return
+	 */
 	def authFailed(){
 		render view:'authFailed'
 	}
