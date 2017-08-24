@@ -9,7 +9,7 @@ class LoginController {
 	def index(){
 		redirect(action:'login', params:params)
 	}
-
+//this comment is added
 	def authenticate(){
 
 		def userName = "";
