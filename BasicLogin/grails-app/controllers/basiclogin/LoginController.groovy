@@ -5,7 +5,7 @@ import org.codehaus.groovy.grails.commons.GrailsApplication
 class LoginController {
 
 	GrailsApplication grailsApplication
-
+dfasdfsfa
 	def index(){
 		redirect(action:'login', params:params)
 	}
