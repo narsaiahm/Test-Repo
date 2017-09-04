@@ -5,7 +5,7 @@ import org.codehaus.groovy.grails.commons.GrailsApplication
 class LoginController {
 
 	GrailsApplication grailsApplication
-dfasdfsfa
+
 	def index(){
 		redirect(action:'login', params:params)
 	}
@@ -35,7 +35,7 @@ dfasdfsfa
 			render(status: 503, text: errorMsg)
 		}
 	}
-
+//login method
 	def login(){
 		render view:'login'
 	}
